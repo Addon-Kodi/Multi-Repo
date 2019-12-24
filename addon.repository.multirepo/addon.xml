@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="addon.repository.multirepo" name="Tutorial repository" version="0.0.1" provider-name="CineFlix">
-	<extension point="xbmc.addon.repository" name="Tutorial Add-on Repository">
+<addon id="addon.repository.multirepo" name="Repository MultiRepo" version="0.0.1" provider-name="MultiRepo">
+	<extension point="xbmc.addon.repository" name="Repository MultiRepo">
 		<info compressed="false">https://raw.githubusercontent.com/Addon-Kodi/Multi-Repo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Addon-Kodi/Multi-Repo/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/Addon-Kodi/Multi-Repo/tree/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Tutorial Addon</summary>
-		<description>Addon Description</description>
+		<summary>Addon MultiRepo</summary>
+		<description>Repositório Oficial do CineFlix.</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
