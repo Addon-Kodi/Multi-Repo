@@ -54,9 +54,9 @@
 <addons>
 <addon id="addon.repository.multirepo" name="Repository MultiRepo" version="0.0.1" provider-name="MultiRepo">
 	<extension point="xbmc.addon.repository" name="Repository MultiRepo">
-		<info compressed="false">https://raw.githubusercontent.com/Addon-Kodi/Multi-Repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Addon-Kodi/Multi-Repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Addon-Kodi/Multi-Repo/tree/master/repo/</datadir>
+		<info compressed="false">https://raw.github.com/Addon-Kodi/Multi-Repo/master/addons.xml</info>
+		<checksum>https://raw.github.com/Addon-Kodi/Multi-Repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/Addon-Kodi/Multi-Repo/tree/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Addon MultiRepo</summary>
