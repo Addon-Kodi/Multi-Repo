@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.cineflix"
        name="[COLOR red][B]CineFlix[/B][/COLOR]"
-       version="1.0"
+       version="1.1"
        provider-name="CineFlix">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -29,7 +29,7 @@
   <extension point="xbmc.addon.metadata">
     <summary>Addon CineFlix</summary>
     <description>
-        Assista os Melhores Filmes, SÃ©ries e Animes Dublados em HD GrÃ¡tis!
+        Assista os Melhores Filmes, Séries e Animes Dublados em HD Grátis!
 
     </description>
     <platform>all</platform>
@@ -41,11 +41,11 @@
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio image programs</provides>
+       <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Listen to music, watch videos and view photos from your Google Drive account</summary>
-        <description>Plays music and video from your Google Drive account.  Not affiliated with Google.</description>
+        <summary>Ouça músicas, assista a vídeos e veja fotos da sua conta do Google Drive</summary>
+        <description>Reproduz música e vídeo da sua conta do Google Drive. Não afiliado ao Google.</description>
         <platform>all</platform>
     </extension>
 	<extension point="xbmc.service" library="service.py" start="login">
@@ -59,8 +59,8 @@
 		<datadir zip="true">https://raw.githubusercontent.com/Addon-Kodi/Multi-Repo/master/repo</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio MultiRepo</summary>
-        <description>RepositÃ³rio Oficial do CineFlix.</description>
+        <summary>Repositório MultiRepo</summary>
+        <description>Repositório Oficial do CineFlix.</description>
         <platform>all</platform>
     </extension>
 </addon>

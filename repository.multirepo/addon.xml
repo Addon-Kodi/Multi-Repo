@@ -6,7 +6,7 @@
 		<datadir zip="true">https://raw.githubusercontent.com/Addon-Kodi/Multi-Repo/master/repo</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio MultiRepo</summary>
+        <summary>Repositório MultiRepo</summary>
         <description>Repositório Oficial do CineFlix.</description>
         <platform>all</platform>
     </extension>
