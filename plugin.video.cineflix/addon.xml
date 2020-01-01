@@ -28,7 +28,7 @@
   <extension point="xbmc.addon.metadata">
     <summary>Addon CineFlix</summary>
     <description>
-        Assista os Melhores Filmes, Séries e Animes Dublados em HD Grátis!
+        Assista os Melhores Filmes, Series e Animes Dublados em HD Gratis!
              
     </description>
     <platform>all</platform>
